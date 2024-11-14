@@ -4,6 +4,7 @@ session_start();
 require_once 'auth.php';
 
 // Testing GitHub pushes
+// Second push, lab 18 "Skills test"
 
 // Check if user is logged in
 if (!is_logged_in()) {
@@ -13,8 +14,8 @@ if (!is_logged_in()) {
 
 $host = 'localhost'; 
 $dbname = 'books'; 
-$user = 'mark'; 
-$pass = 'mark';
+$user = 'erik'; 
+$pass = 'erik';
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$dbname;charset=$charset";
